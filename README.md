@@ -1,4 +1,4 @@
-[Click for English introduction](/readme.md) | [中文说明请点击](/readme_zh_CN.md)
+[Click for English introduction](/README.md) | [中文说明请点击](/README_zh_CN.md)
 
 **v1.5 version**
 Optimization and upgrade:
