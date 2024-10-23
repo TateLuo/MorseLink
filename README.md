@@ -2,7 +2,7 @@
 
 **v1.5 version**
 
-Optimization and upgrade:
+Upgrade:
 
 1. Optimized the interface, adapted to the high-resolution system, and the text is clearer
 
@@ -12,7 +12,7 @@ Optimization and upgrade:
 
 4. Optimized the logic of receiving messages, optimized the rigid sound, and the technique can be heard.
 
-BUG repair:
+Fixed bugs:
 
 1. Rewrite the logic of prohibiting sending messages (it seems that there is no need to rewrite)
 
@@ -46,7 +46,7 @@ Fixed bugs:
 -------------------------------------------------------------
 **V1.3 version**
 
-New features:
+Upgrade:
 
 1. Listening practice function
 
@@ -68,6 +68,7 @@ Fixed bugs :
 
 ----------------------------------------------------------
 **V1.2 version:**
+Upgrade:
 
 1. The letter interval and word interval can be manually adjusted (hand key, automatic key)
 
@@ -83,7 +84,7 @@ Fixed bugs :
 
 7. Add the function of changing the key of the electric key connector
 
-Fixed problems:
+Fixed bugs:
 
 1. Other channels cannot be selected when the connection is not disconnected [modified]
 
@@ -97,7 +98,7 @@ Fixed problems:
 
 **V1.1 version**
 
-Updates as follows:
+Upgrade:
 
 Renamed to: MORSELINK
 
