@@ -1,4 +1,4 @@
-[中文说明请点击](/README_zh_CN.md)
+[中文说明请点击此处](/README_zh_CN.md)
 
 **v1.5 version**
 
