@@ -1,4 +1,4 @@
-[中文简介请点击此处](/README_zh_CN.md) | [中文使用手册请点击此处](https://github.com/TateLuo/MorseLink/wiki/MorseLink%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C_zh_CN) | [Click here for the user manual](https://github.com/TateLuo/MorseLink/wiki/MorseLink-User-Manual_en)
+[中文简介请点击此处](/README_zh_CN.md) | [中文使用手册请点击此处](https://github.com/TateLuo/MorseLink/wiki/MorseLink%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C_zh_CN) | [Click here for the user manual](https://github.com/TateLuo/MorseLink/wiki/MorseLink-User-Manual_en) | [下载&Download](https://github.com/TateLuo/MorseLink/releases)
 
 **v1.5 version**
 
