@@ -24,6 +24,8 @@ Fixed bugs:
 
 5. The pop-up object call of does not exist sender
 
+![主页截图&home page screenshout](https://github.com/TateLuo/MorseLink/blob/main/screen_shot/1.5.0.png)
+
 -------------------------------------------------------------
 **V1.4 version**
 
@@ -42,6 +44,8 @@ Fixed bugs:
 3. When setting the key, the space bar cannot be set [fixed]
 
 4. When initializing the database, first check whether there is a corresponding table [fixed]
+
+![主页截图&home page screenshout](https://github.com/TateLuo/MorseLink/blob/main/screen_shot/1.4.0.png)
 
 -------------------------------------------------------------
 **V1.3 version**
@@ -65,6 +69,8 @@ Fixed bugs :
 2. The problem that the space bar cannot be written when writing keys in the electric key connector is fixed
 
 3. The problem that the animation interface cannot adapt to the window is fixed\
+
+![主页截图&home page screenshout](https://github.com/TateLuo/MorseLink/blob/main/screen_shot/1.3.0.png)
 
 ----------------------------------------------------------
 **V1.2 version:**
@@ -93,6 +99,8 @@ Fixed bugs:
 3. The client occupies the specified port (or gives a specified port range) [only one port can be specified, or not specified, there is a computer allocation]
 
 4. There will be audio reverberation problems on some computers and it cannot be opened. Added audio playback exception capture, so that some devices will not be unable to open the program, but the sound may not be played.
+
+![主页截图&home page screenshout](https://github.com/TateLuo/MorseLink/blob/main/screen_shot/1.2.0.png)
 
 --------------------------------------------------------------------------
 
@@ -123,3 +131,5 @@ Renamed to: MORSELINK
 10. Added automatic communication record function
 
 11. Added the function of setting your own call sign and displaying the other party's call sign during communication
+
+![主页截图&home page screenshout](https://github.com/TateLuo/MorseLink/blob/main/screen_shot/1.1.0.png)
