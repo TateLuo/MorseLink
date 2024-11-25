@@ -153,4 +153,4 @@
 
 11.增加设置自己呼号与通联时显示对方呼号功能
 
-![主页截图&home page screenshout](https://github.com/TateLuo/MorseLink/blob/main/screen_shot/1.0.0.png)
+![主页截图&home page screenshout](https://github.com/TateLuo/MorseLink/blob/main/screen_shot/1.1.0.png)
