@@ -1,5 +1,25 @@
 [中文简介请点击此处](/README_zh_CN.md) | [中文使用手册请点击此处](https://github.com/TateLuo/MorseLink/wiki/MorseLink%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C_zh_CN) | [Click here for the user manual](https://github.com/TateLuo/MorseLink/wiki/MorseLink-User-Manual_en) | [下载&Download](https://github.com/TateLuo/MorseLink/releases)
 
+**v1.6 version**
+Optimization and upgrade:
+
+1. Optimize the interface of MorseLink Connector, which is easier to use. Add the Ctrl key to connect to MorseRunner to send messages.
+
+2. Add the English language, which can automatically adapt to the system language or switch manually.
+
+3. The online download update in the software is changed to a pop-up window to download to the browser (the server bandwidth is low and the download speed is slow, and the third-party download service will have a faster download speed)
+
+4. Add a software installer, and there will be no conflicts due to program upgrades
+
+BUG fixes:
+
+1. Maybe some known bugs have been fixed
+
+2. If you find new bugs, please contact the author BI4MOL, and they will be fixed in the next version.
+
+   
+-------------------------------------------------------------
+
 **v1.5 version**
 
 Upgrade:
