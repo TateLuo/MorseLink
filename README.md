@@ -17,7 +17,8 @@ BUG fixes:
 
 2. If you find new bugs, please contact the author BI4MOL, and they will be fixed in the next version.
 
-   
+![主页截图&home page screenshout](https://github.com/TateLuo/MorseLink/blob/main/screen_shot/1.6.0.png)
+
 -------------------------------------------------------------
 
 **v1.5 version**
