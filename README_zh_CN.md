@@ -1,4 +1,5 @@
 [PLEASE CLICK FOR ENGLISH VERSION](README.md)
+
 **v1.6版本**
 优化升级：
 
@@ -15,6 +16,8 @@
 1.或许修复了一些已知Bug
 
 2.如果发现有新的BUG，麻烦联系作者BI4MOL，会在下个版本中进行修复。
+
+![主页截图&home page screenshout](https://github.com/TateLuo/MorseLink/blob/main/screen_shot/1.6.0.png)
 
 -------------------------------------------------------------
 
@@ -42,6 +45,7 @@
 
 5.弹出不存在对象call of sender
 
+![主页截图&home page screenshout](https://github.com/TateLuo/MorseLink/blob/main/screen_shot/1.5.0.png)
 
 -------------------------------------------------------------
 **V1.4版本**
@@ -61,6 +65,8 @@
 3.设置按键时，无法设置空格键[已修复]
 
 4.初始化数据库是，先检测是否有对应的表[已修复]
+
+![主页截图&home page screenshout](https://github.com/TateLuo/MorseLink/blob/main/screen_shot/1.4.0.png)
 
 -------------------------------------------------------------
 **V1.3版本**
@@ -84,6 +90,8 @@
 2.电键连接器写入按键修复无法写入空格键的问题
 
 3.修复动画界面无法随窗口自适应的问题\
+
+![主页截图&home page screenshout](https://github.com/TateLuo/MorseLink/blob/main/screen_shot/1.3.0.png)
 
 ----------------------------------------------------------
 **V1.2版本：**
@@ -111,6 +119,8 @@
 3.客户端占用指定端口（或者给一个指定端口范围）【只能指定一个端口，还是不指定了，有电脑分配】
 
 4.在部分电脑上会有音频混响问题，打不开。增加音频播放异常捕捉，不至于部分设备打不开程序，但是可能出现声音播放不了的情况。
+
+![主页截图&home page screenshout](https://github.com/TateLuo/MorseLink/blob/main/screen_shot/1.2.0.png)
 
 
 --------------------------------------------------------------------------
@@ -143,4 +153,4 @@
 
 11.增加设置自己呼号与通联时显示对方呼号功能
 
-
+![主页截图&home page screenshout](https://github.com/TateLuo/MorseLink/blob/main/screen_shot/1.0.0.png)
