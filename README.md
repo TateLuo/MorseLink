@@ -1,5 +1,3 @@
-[PLEASE CLICK FOR ENGLISH VERSION](README.md)
-
 **v1.6版本**
 优化升级：
 
