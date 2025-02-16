@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MorseLink</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MorseLink</string>
+    <string name="nav_header_subtitle">By Bi4mol</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">帮助</string>
+
+    <string name="menu_home">首页</string>
+    <string name="menu_gallery">设置</string>
+    <string name="menu_slideshow">学习</string>
+</resources>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <!-- 第一行：标签 + 文本控件 -->
+    <TextView
+        android:id="@+id/text_received_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="收报："
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp" />
+
+    <!-- 第二行：标签 + 文本控件 -->
+    <TextView
+        android:id="@+id/edit_received_code"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/text_received_code"
+        app:layout_constraintTop_toTopOf="@+id/text_received_code"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <TextView
+        android:id="@+id/text_received_code_translation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="收报翻译："
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_received_code"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/edit_received_code_translation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/black"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/text_received_code_translation"
+        app:layout_constraintTop_toTopOf="@+id/text_received_code_translation"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <!-- 第三行：标签 + 文本控件 -->
+    <TextView
+        android:id="@+id/text_send_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发报："
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_received_code_translation"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/edit_send_code"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/black"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/text_send_code"
+        app:layout_constraintTop_toTopOf="@+id/text_send_code"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <!-- 第四行：标签 + 文本控件 -->
+    <TextView
+        android:id="@+id/text_send_code_translation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发报翻译："
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_send_code"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/edit_send_code_translation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/black"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/text_send_code_translation"
+        app:layout_constraintTop_toTopOf="@+id/text_send_code_translation"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <com.bi4mol.morselink.customviews.MorseCodeAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintTop_toBottomOf="@+id/edit_send_code_translation"
+        android:id="@+id/fallingBlockLayout"
+        android:background="#EEEEEE" />
+
+    <!-- 服务器人数 -->
+    <TextView
+        android:id="@+id/text_clients_on_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前服务器人数："
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/text_channel"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp" />
+
+    <!-- 频道 -->
+    <TextView
+        android:id="@+id/text_channel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前频率："
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/seekBar_channel"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar_channel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/btn_connect_server"
+        android:min="7000"
+        android:max="7300" />
+
+    <!-- 平行排列的两个按钮 -->
+    <Button
+        android:id="@+id/btn_connect_server"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="连接至服务器"
+        app:layout_constraintEnd_toStartOf="@+id/btn_clean_screen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_transmitter"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btn_clean_screen"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="清理屏幕"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_connect_server"
+        app:layout_constraintBottom_toTopOf="@+id/btn_transmitter"
+        android:layout_marginTop="16dp" />
+
+    <!-- 一个大按钮，底部与屏幕底部对齐 -->
+    <Button
+        android:id="@+id/btn_transmitter"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:text="点击发报"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

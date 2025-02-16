@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 当前呼号设置 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="当前呼号："
+            android:textColor="?android:attr/textColorPrimary" />
+
+        <EditText
+            android:id="@+id/editMyCall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="请输入呼号"
+            android:inputType="textCapCharacters" />
+    </LinearLayout>
+
+    <!-- 自动键设置 -->
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="自动键："
+            android:textColor="?android:attr/textColorPrimary" />
+
+        <Switch
+            android:id="@+id/switchAutoKey"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="启用" />
+    </LinearLayout>
+
+    <!-- 发送音频设置 -->
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="发送音频："
+            android:textColor="?android:attr/textColorPrimary" />
+
+        <Switch
+            android:id="@+id/switchSendBuzz"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="启用" />
+    </LinearLayout>
+
+    <!-- 接收音频设置 -->
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="接收音频："
+            android:textColor="?android:attr/textColorPrimary" />
+
+        <Switch
+            android:id="@+id/switchReceiveBuzz"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="启用" />
+    </LinearLayout>
+
+    <!-- 翻译可见性设置 -->
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="翻译可见性："
+            android:textColor="?android:attr/textColorPrimary" />
+
+        <Switch
+            android:id="@+id/switchTranslationVisibility"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="显示" />
+    </LinearLayout>
+
+    <!-- 可视化设置 -->
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="可视化显示："
+            android:textColor="?android:attr/textColorPrimary" />
+
+        <Switch
+            android:id="@+id/switchVisualizerVisibility"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="显示" />
+    </LinearLayout>
+
+    <!-- 音频频率设置 -->
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/text_buzzFreq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="音频频率："
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_marginBottom="4dp" />
+
+        <SeekBar
+            android:id="@+id/seekBarBuzzFreq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:min="100"
+            android:max="800" />
+    </LinearLayout>
+
+    <!-- WPM设置 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/text_wpm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WPM键速:"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_marginBottom="4dp" />
+
+        <SeekBar
+            android:id="@+id/seekBarWPM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:min="10"
+            android:max="60" />
+    </LinearLayout>
+
+    <!-- 保存和取消按钮 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="保存" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消" />
+    </LinearLayout>
+</LinearLayout>
