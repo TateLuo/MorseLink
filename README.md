@@ -14,6 +14,9 @@
 注意：
 1.此版本需要先设置呼号才能使用，如果没有呼号可以自己填写一个字母+数字的虚拟呼号
 
+![主页截图&home page screenshout](https://github.com/TateLuo/MorseLink/blob/main/screen_shot/1.7.0.png)
+
+
 -------------------------------------------------------------
 
 **v1.6版本**
