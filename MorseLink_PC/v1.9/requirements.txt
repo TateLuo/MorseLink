@@ -1,0 +1,14 @@
+# MorseLink project dependencies
+# Python: 3.13
+
+# Runtime
+PySide6==6.10.1
+numpy==2.3.1
+sounddevice==0.5.5
+paho-mqtt==2.1.0
+requests==2.32.4
+packaging==25.0
+pyserial==3.5
+
+# Build/packaging (optional but recommended for release builds)
+Nuitka==2.8.10
