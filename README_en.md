@@ -1,4 +1,4 @@
-[中文简介请点击此处](/README_zh_CN.md) | [中文使用手册请点击此处](https://github.com/TateLuo/MorseLink/wiki/MorseLink%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C_zh_CN) | [Click here for the user manual](https://github.com/TateLuo/MorseLink/wiki/MorseLink-User-Manual_en) | [下载&Download](https://github.com/TateLuo/MorseLink/releases)
+[中文简介请点击此处](/README.md) | [中文使用手册请点击此处](https://github.com/TateLuo/MorseLink/wiki/MorseLink%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C_zh_CN) | [Click here for the user manual](https://github.com/TateLuo/MorseLink/wiki/MorseLink-User-Manual_en) | [中文服务器搭建](./docs/wiki/如何搭建服务器_zh_CN.md) | [Server Deployment (EN)](./docs/wiki/How-to-Deploy-a-MorseLink-Server_en.md) | [下载&Download](https://github.com/TateLuo/MorseLink/releases)
 
 *****Will Not update the English version, and removed the English language from MorseLink.*****
 
