@@ -26,7 +26,7 @@ MorseLink 由 **BI4MOL** 开发，是一款专业级 CW（摩尔斯电码）训�
 
 ### 🛠 服务器部署指南
 
-[点击查看服务器搭建方式](https://github.com/TateLuo/MorseLink/wiki/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E6%9C%8D%E5%8A%A1%E5%99%A8)
+[中文：查看服务器搭建方式](./docs/wiki/如何搭建服务器_zh_CN.md)<br>[English: Server Deployment Guide](./docs/wiki/How-to-Deploy-a-MorseLink-Server_en.md)
 
 ---
 
@@ -63,7 +63,7 @@ The system integrates **structured stage-based training** with **real-time MQTT-
 
 ### 🛠 Server Deployment Guide
 
-[Learn How to Deploy Your Own Server](https://github.com/TateLuo/MorseLink/wiki/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E6%9C%8D%E5%8A%A1%E5%99%A8)
+[Chinese: Server Deployment Guide](./docs/wiki/如何搭建服务器_zh_CN.md)<br>[English: How to Deploy a MorseLink Server](./docs/wiki/How-to-Deploy-a-MorseLink-Server_en.md)
 
 ---
 
