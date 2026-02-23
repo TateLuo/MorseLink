@@ -59,7 +59,7 @@ The system integrates **structured stage-based training** with **real-time MQTT-
 
 ### 📘 User Manual
 
-[Read the User Guide](https://github.com/TateLuo/MorseLink/wiki/MorseLink%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C_zh_CN)
+[Read the User Guide](https://github.com/TateLuo/MorseLink/wiki/MorseLink-User-Manual_en)
 
 ### 🛠 Server Deployment Guide
 
