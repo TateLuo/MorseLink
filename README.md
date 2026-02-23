@@ -1,11 +1,3 @@
----
-
-# MorseLink
-
-**Professional CW Training & Online Communication Platform**
-
----
-
 ## 中文版本
 
 MorseLink 由 **BI4MOL** 开发，是一款专业级 CW（摩尔斯电码）训练与在线通联系统，旨在降低入门门槛、提升训练效率，并通过数据化机制维持长期学习动力。
