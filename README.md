@@ -1,9 +1,6 @@
 # MorseLink
 
-## 🌐 Language / 语言
-
-### [🇨🇳 中文版本](#中文版本)
-### [🇬🇧 English Version](#english-version)
+## 🌐 Language / 语言  [🇨🇳 中文版本](#中文版本) |  [en English Version](#english-version)
 
 
 ## 中文版本
