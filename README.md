@@ -63,7 +63,7 @@ The system integrates **structured stage-based training** with **real-time MQTT-
 
 ### 🛠 Server Deployment Guide
 
-[Chinese: Server Deployment Guide](./docs/wiki/如何搭建服务器_zh_CN.md)<br>[English: How to Deploy a MorseLink Server](./docs/wiki/How-to-Deploy-a-MorseLink-Server_en.md)
+[How to Deploy a MQTT Server for Morselink](./docs/wiki/How-to-Deploy-a-MorseLink-Server_en.md)
 
 ---
 
